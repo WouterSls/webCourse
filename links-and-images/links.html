@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <p>This example is about links and <a href="images.html">images</a></p>
+    <p>there are 3 types of links which exist.</p>
+    <p>these being:</p>
+    <ol>
+        <li>Absolute links <br>these are the most detailed and refer to the complete web address example: <strong>"https://developer.mozilla.org/en-US/docs/Web/HTML"</strong> <br>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Mozilla
+            Developer Network</a>
+        </li>
+        <li>
+            Relative links <br> these point to another page on your website view from the current page <br>
+            we can link to the extra file by supplying the path like this : <strong>"misc/extras.html"</strong>
+            <br><a href="misc/extras.html">extras</a>
+        </li>
+        <li>
+            Root-relative links <br>
+            These are similar to relative links but they are relative to the root from the entire website.
+            <br>since we are using local html files, we won't be able to expiriment with root-relative links.
+        </li>
+        <p>the only difference between a root-relative link and a relative links is: one starts with a forward slash, this represent the root of your site.</p>
+    </ol>
+    <p>targets: 
+        <br> we can use the target tag in a link to specifiy where we want the new web page to open.
+        if you don't add it, it'll open on the current page by default <br>
+        adding a "target = _blank" will make sure the webpage opens on a new tab.
+        </p>
+        <p>this would look something like this. <a href="images.html" target="_blank">images</a></p>
+</body>
+</html>
